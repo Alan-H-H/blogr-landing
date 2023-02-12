@@ -331,6 +331,8 @@ h4{
     .header{
         display: flex;
         flex-direction: column;
+        height:auto;
+        align-items: center;
     }
     .svg{
         display: flex;
@@ -421,7 +423,7 @@ h4{
     }
     
     .svg1{
-        width: 110%;
+        width: 100%;
     }
 
     h1{
@@ -451,7 +453,7 @@ h4{
     }
     
     .svg2{
-        width: 110%;
+        width: 100%;
     }
     
     h2{
@@ -476,7 +478,7 @@ h4{
     }
     
     .svg3{
-        width: 110%;
+        width: 100%;
     }
     
     .subcontainer3{
@@ -509,7 +511,7 @@ h4{
 
 .svg4{
     margin-left: -50px;
-    width: 110%;
+    width: 100%;
 }
 
 .h3{
