@@ -454,6 +454,7 @@ h4{
     }
     
     .svg2{
+        display: none;
         width: 100%;
     }
     
@@ -479,6 +480,7 @@ h4{
     }
     
     .svg3{
+        display:none;
         width: 100%;
     }
     
