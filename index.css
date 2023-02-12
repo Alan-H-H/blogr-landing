@@ -1,0 +1,539 @@
+body{
+    margin:0;
+    display: flex;
+    flex-direction: column;
+}
+.header {
+    background: rgb(255,143,112);
+    background: linear-gradient(90deg, rgba(255,143,112,1) 0%, rgba(255,61,84,1) 50%);
+    color: hsl(0, 0%, 100%);
+    font: 0.8em/1.5em Arial,Helvetica,sans-serif;
+    height: 450px;
+    border-bottom-left-radius: 50px;
+    align-items: center;
+    justify-content: center;
+}
+svg{
+    display: flex;
+    float:left;
+    padding: 30px 30px;
+    margin-left: 200px;
+}
+a {
+    color: hsl(356, 100%, 66%);
+}
+
+#nav {
+    display: flex;
+    float: left;
+    padding: 30px 10px;
+    margin: 0;
+}
+#nav li {
+    float: left;
+    list-style: none outside none;
+    margin: 0 5px;
+    padding: 0 0 8px;
+    position: relative;
+}
+#nav a {
+    color: #E7E5E5;
+    display: block;
+    font-weight: bold;
+    margin: 0;
+    padding: 8px 20px;
+    text-decoration: none;
+}
+#nav a:hover {
+    color: hsl(0, 0%, 100%);
+}
+#nav .current a, #nav li:hover > a {
+    background: hsl(0, 0%, 100%);
+    color: hsl(355, 100%, 74%);
+}
+#nav ul li:hover a, #nav li:hover li a {
+    color: hsl(0, 0%, 100%);
+}
+#nav ul a:hover {
+    color: hsl(356, 100%, 66%)!important;
+}
+#nav li:hover > ul {
+    display: block;
+}
+#nav ul {
+    display: none;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 35px;
+    width: 185px;
+}
+#nav ul li {
+    float: none;
+    margin: 0;
+    padding: 0;
+}
+#nav ul a {
+    font-weight: normal;
+}
+#nav ul ul {
+    left: 181px;
+    top: -3px;
+}
+#nav:after {
+    display: block;
+    height: 0;
+}
+.arrow:after{
+    right: 18px;
+   top: 50%;
+   transform: translateY(-50%);
+   font-family: "FontAwesome"; 
+   content: "\f107";
+   font-size: 16px;
+   margin-left: 90px;
+
+}
+#nav {
+    display: inline-block;
+}
+html[xmlns] #nav {
+    display: block;
+}
+* html #nav {
+    height: 1%;
+}
+.signupbtn{
+    display: flex;
+    float: right;
+    margin: 0 auto;
+    color: hsl(355, 100%, 74%);
+    background-color: hsl(0, 0%, 100%);
+    padding: 7px 20px;
+    border: 1px solid hsl(0, 0%, 100%) ;
+    border-radius: 15px;
+}
+.loginbtn{
+    margin: 7px auto;
+    padding: 0px 10px;
+    display: flex;
+    float: right;
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
+
+.buttons-up{
+    padding: 30px 200px;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    font-size: 46px;
+    padding: 30px 20px;
+}
+
+.subtitle{
+    display: flex;
+    flex-direction: column;
+}
+
+.startbtn{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    color: hsl(355, 100%, 74%);
+    background-color: hsl(0, 0%, 100%);
+    padding: 7px 20px;
+    border: 1px solid hsl(0, 0%, 100%) ;
+    border-radius: 15px;
+    margin-right: 5px;
+}
+
+.learnbtn{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(355, 100%, 74%);
+    padding: 7px 20px;
+    border: 1px solid hsl(0, 0%, 100%) ;
+    border-radius: 15px;
+    margin-left: 5px;
+}
+
+.spans{
+    align-items: center;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons-down{
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+}
+
+.container1{
+    font: 0.8em/1.5em Arial,Helvetica,sans-serif;
+}
+
+.title2{
+    color: hsl(208, 49%, 24%);
+    font-size: 26px;
+    font-family: sans-serif;
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+    height: 0px;
+}
+
+.subcontainer1{
+    width: 35%;
+    float: left;
+}
+
+.svg1{
+    display: flex;
+    width: 65%;
+    float: right;
+}
+
+h1{
+    margin-top: 200px;
+    margin-left: 100px;
+    color: hsl(208, 49%, 24%);
+    font-size: 22px;
+}
+
+.blogr1{
+    margin-top: 50px;
+    margin-left: 100px;
+    font-size: 12px;
+    line-height: 25px;
+    color: hsl(207, 13%, 34%);
+    margin-bottom: 200px;
+}
+
+.container2{
+    margin-top: 1000px;
+    height: 200px;
+    background: rgb(44,45,63);
+    background: linear-gradient(90deg, rgba(44,45,63,1) 0%, rgba(63,65,100,1) 50%);
+    border-bottom-right-radius: 50px;
+}
+
+.svg2{
+    margin-top: -170px;
+    width: 65%;
+    float: left;
+}
+
+.subcontainer2{
+    margin: 30px auto;
+    width: 35%;
+    float: right;
+}
+
+h2{
+    color: hsl(0, 0%, 100%);
+    font-size: 22px;
+    margin-right: 100px;
+}
+
+.blogr2{
+    font-size: 12px;
+    line-height: 25px;
+    color: hsl(0, 0%, 100%);
+    margin-right: 100px;
+}
+
+.container3{
+    margin-top: 150px;
+    height: 200px;
+}
+
+.svg3{
+    width: 40%;
+    float: left;
+}
+
+.subcontainer3{
+    margin-top: 300px;  
+    margin-right: 600px;
+}
+
+h4{
+    margin-top: 70px;
+    color: hsl(208, 49%, 24%);
+    font-size: 22px;
+}
+
+.blogr3{
+    margin-top: 20px;
+    font-size: 12px;
+    line-height: 20px;
+    color: hsl(208, 49%, 24%);
+    margin-bottom: 100px;
+}
+
+.footer{
+    margin-top: 800px;
+    height: 300px;
+    background: hsl(237, 17%, 21%);
+    border-top-right-radius: 50px;
+    display: flex;
+    flex-direction: row;
+    color: hsl(240, 2%, 79%);  
+}
+
+.svg4{
+    padding-top: 30px;
+}
+
+.h3{
+    font-weight: 400;
+}
+
+.connect{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 100px;
+}
+
+.company{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 100px;
+}
+
+.product{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 100px;
+}
+
+.footerlink{
+    color: hsl(240, 2%, 79%);
+    text-decoration: none;
+    line-height: 30px;
+}
+
+@media screen and (max-width: 1250px) {
+    body{
+        padding: none;
+        margin: 0;
+        font-size: 11px;
+    }
+
+    .header{
+        display: flex;
+        flex-direction: column;
+    }
+    .svg{
+        display: flex;
+        margin-right: 200px;
+        margin-top: 50px;
+        margin-bottom: 50px;       
+    }
+
+    #nav {
+        font-size: 12px;
+        margin-top: -50px;
+        padding: 0px;
+        width: 100%;
+    }
+
+    .signupbtn{
+        font-size: 12px;
+        padding: 8px 10px;
+        border-radius: 15px;
+    }
+    .loginbtn{
+        font-size: 12px;
+        margin: 8px auto;
+    }
+    .buttons-up{
+        margin-top: -50px;
+        width: 100%;
+        padding: 0px;
+    }
+
+    .title{
+        display: flex;
+        flex-direction: column;
+        font-size: 26px;
+        padding: 30px 20px;
+    }
+    
+    .subtitle{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .startbtn{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        color: hsl(355, 100%, 74%);
+        background-color: hsl(0, 0%, 100%);
+        padding: 7px 20px;
+        border: 1px solid hsl(0, 0%, 100%) ;
+        border-radius: 15px;
+        margin-right: 5px;
+    }
+    
+    .learnbtn{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        color: hsl(0, 0%, 100%);
+        background-color: hsl(355, 100%, 74%);
+        padding: 7px 20px;
+        border: 1px solid hsl(0, 0%, 100%) ;
+        border-radius: 15px;
+        margin-left: 5px;
+    }
+    
+    .spans{
+        align-items: center;
+        margin-top: 70px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .buttons-down{
+        padding: 40px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .container1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+    .subcontainer1{
+        width: 100%;
+    }
+    
+    .svg1{
+        width: 110%;
+    }
+
+    h1{
+        margin-top: 20px;
+        margin-left: 30px;
+        color: hsl(208, 49%, 24%);
+        font-size: 18px;
+    }
+    
+    .blogr1{
+        margin-top: 10px;
+        margin-left: 30px;
+        font-size: 10px;
+        line-height: 20px;
+        color: hsl(207, 13%, 34%);
+    }
+    
+    .container2{
+        margin-top: -80px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .subcontainer2{
+        margin-top: -180px;  
+        width: 100%;
+    }
+    
+    .svg2{
+        width: 110%;
+    }
+    
+    h2{
+        margin-top: 20px;
+        margin-left: 30px;
+        color: hsl(208, 49%, 24%);
+        font-size: 18px;
+    }
+    
+    .blogr2{
+        margin-top: 10px;
+        margin-left: 30px;
+        font-size: 10px;
+        line-height: 20px;
+        color: hsl(207, 13%, 34%);
+    }
+    .container3{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+    
+    .svg3{
+        width: 110%;
+    }
+    
+    .subcontainer3{
+        margin-top: -180px;  
+        width: 100%;
+    }
+    
+    h4{
+        margin-top: 20px;
+        margin-left: 30px;
+        color: hsl(208, 49%, 24%);
+        font-size: 18px;
+    }
+    
+    .blogr3{
+        margin-top: 10px;
+        margin-left: 30px;
+        font-size: 10px;
+        line-height: 20px;
+        color: hsl(207, 13%, 34%);
+    }
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    height:auto;
+    align-items: center;
+}
+
+.svg4{
+    width: 110%;
+}
+
+.h3{
+    font-weight: 400;
+}
+
+.connect{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 100px;
+}
+
+.company{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 100px;
+}
+
+.product{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 100px;
+}
+
+.footerlink{
+    color: hsl(240, 2%, 79%);
+    text-decoration: none;
+    line-height: 30px;
+}
+}
