@@ -356,7 +356,6 @@ h4{
         margin: 8px auto;
     }
     .buttons-up{
-        margin-top: -50px;
         width: 100%;
         padding: 0px;
     }
@@ -366,6 +365,7 @@ h4{
         flex-direction: column;
         font-size: 26px;
         padding: 30px 20px;
+        line-height: 20px;
     }
     
     .subtitle{
@@ -459,6 +459,7 @@ h4{
         margin-left: 30px;
         color: hsl(208, 49%, 24%);
         font-size: 18px;
+        line-height: 20px;
     }
     
     .blogr2{
@@ -496,6 +497,7 @@ h4{
         font-size: 10px;
         line-height: 20px;
         color: hsl(207, 13%, 34%);
+        margin-bottom: 20px;
     }
 
 .footer{
@@ -506,6 +508,7 @@ h4{
 }
 
 .svg4{
+    margin-left: -50px;
     width: 110%;
 }
 
@@ -516,24 +519,22 @@ h4{
 .connect{
     display: flex;
     flex-direction: column;
-    padding: 30px 100px;
+    padding: 20px 100px;
 }
 
 .company{
     display: flex;
     flex-direction: column;
-    padding: 30px 100px;
+    padding: 20px 100px;
 }
 
 .product{
     display: flex;
     flex-direction: column;
-    padding: 30px 100px;
+    padding: 20px 100px;
 }
 
 .footerlink{
-    color: hsl(240, 2%, 79%);
-    text-decoration: none;
-    line-height: 30px;
+    line-height: 20px;
 }
 }
