@@ -416,6 +416,7 @@ h4{
     .container1{
         display: flex;
         flex-direction: column;
+
     }
 
     
@@ -435,7 +436,7 @@ h4{
     }
     
     .blogr1{
-        margin-top: 10px;
+        margin-top: 20px;
         margin-left: 30px;
         font-size: 10px;
         line-height: 20px;
@@ -443,13 +444,12 @@ h4{
     }
     
     .container2{
-        margin-top: -80px;
+        margin-top: -100px;
         display: flex;
         flex-direction: column;
     }
 
-    .subcontainer2{
-        margin-top: -180px;  
+    .subcontainer2{  
         width: 100%;
     }
     
@@ -459,19 +459,19 @@ h4{
     }
     
     h2{
-        margin-top: 20px;
+        margin-top: 0px;
         margin-left: 30px;
-        color: hsl(208, 49%, 24%);
+        color: hsl(0, 0%, 100%);
         font-size: 18px;
         line-height: 20px;
     }
     
     .blogr2{
-        margin-top: 10px;
+        margin-top: 0px;
         margin-left: 30px;
         font-size: 10px;
         line-height: 20px;
-        color: hsl(207, 13%, 34%);
+        color: hsl(0, 0%, 100%);
     }
     .container3{
         display: flex;
@@ -485,19 +485,19 @@ h4{
     }
     
     .subcontainer3{
-        margin-top: -180px;  
+        margin-top: -150px;  
         width: 100%;
     }
     
     h4{
-        margin-top: 20px;
+        margin-top: 50px;
         margin-left: 30px;
         color: hsl(208, 49%, 24%);
         font-size: 18px;
     }
     
     .blogr3{
-        margin-top: 10px;
+        margin-top: 50px;
         margin-left: 30px;
         font-size: 10px;
         line-height: 20px;
@@ -506,6 +506,7 @@ h4{
     }
 
 .footer{
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
     height:auto;
@@ -541,5 +542,8 @@ h4{
 
 .footerlink{
     line-height: 20px;
+}
+.powerful{
+    padding-top: 100px;
 }
 }
